@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "微软雅黑";
+    text-align: center;
+    font-weight: bold;
+}
+.gameBox{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin: 50px auto;
+    position: relative;
+}
+.endBox{
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    color: #ffffff;
+}
+.endBox h1{
+    font-size: 50px;
+}
+.endBox p{
+    font-size: 20px;
+    margin: 20px 0;
+}
+.endBox button{
+    font-size: 24px;
+    background-color: rgb(244,123,94);
+    border: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 10px 30px;
+}
+.mask{
+    position: absolute;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: rgba(0,0,0,0.5);
+}
