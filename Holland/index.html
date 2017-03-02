@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="email=no" name="format-detection">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content=""/>
+    <link rel="icon" href="http://www.zhangxin.space/wp-content/uploads/2017/02/xin-150x150.jpg">
+    <title>霍兰德职业兴趣测试</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <style>
+        #questionBox{
+            padding-bottom: 100px;
+        }
+        #questionBtn{
+            margin-top: 60px;
+        }
+    </style>
+</head>
+<body class="container">
+    <header class="page-header text-center">
+        <h3>想知道最适合你的职业是什么吗？ <small>霍兰德职业兴趣测试</small></h3>
+        <p>
+            <span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+            本测试根据<a target="_blank" href="http://www.iqeq.com.cn/Holland.html">测智网霍兰德职业兴趣测试</a>进行整理计算并给出结论。
+        </p>
+    </header>
+    <div id="questionBox">
+        <div class="alert alert-warning"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> 跟着感觉走，不必想太多，这里没有标准答案。</div>
+        <form method="post">
+            <div id="question">
+                <!-- js循环放入内容-->
+            </div>
+            <button type="button" class="btn btn-info btn-lg btn-block" id="questionBtn">提交</button>
+        </form>
+    </div>
+    <footer>
+        <p class="navbar-default navbar-fixed-bottom text-center">All of the website &copy;zhangxin</p>
+    </footer>
+
+    <!-- js文件-->
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/content.js"></script>
+    <script src="js/question.js"></script>
+</body>
+</html>
